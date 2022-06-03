@@ -1,4 +1,4 @@
-# My Awesome Project
+# Jobson's Joke Database
 This is a simple Joke project using ASP.NET 3.1 
 
 **Link to project:** 
@@ -7,7 +7,7 @@ This is a simple Joke project using ASP.NET 3.1
 
 ## How It's Made:
 
-**Tech used:** Razor, CSS, C#, ASP.NET 3.1 
+**Tech used:** Razor, CSS, C#, JavaScript, ASP.NET 3.1 
 
 
 
