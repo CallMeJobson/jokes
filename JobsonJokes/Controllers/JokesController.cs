@@ -35,7 +35,8 @@ namespace JobsonJokes.Controllers
         public async Task<IActionResult> ShowSearchResults(String SearchPhrase)
         {
             //Optional parameter
-            return View("Index",await _context.Joke.ToListAsync());
+            return View("Index",await _context.Joke.Where( j => j.JokeQuestion.Contains
+            (SearchPhrase)).ToListAsync());
         }
 
 
